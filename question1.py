@@ -1,6 +1,7 @@
-"""Laboratorio 8 - Problema 1.
+import sys
+if len(sys.argv) != 3:
+        raise ValueError
 
-Implementa una CLI que calcule carga por punto de soporte.
-"""
-
-# TODO: Implementar según README.md
+total_load = float(sys.argv[1])
+num_supports = float(sys.argv[2])
+print("Error: Invalid input! Enter numeric values only.")
