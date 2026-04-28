@@ -11,7 +11,6 @@ if sys.argv[1] == "--help":
 Examples:
   python main.py tasks.txt add "Buy groceries"
   python main.py tasks.txt remove "Do laundry"
-  python main.py tasks.txt view
   python main.py tasks.txt add "Call mom" remove "Take out trash" view""")
         sys.exit()
 
