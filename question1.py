@@ -5,3 +5,4 @@ if len(sys.argv) != 3:
 total_load = float(sys.argv[1])
 num_supports = float(sys.argv[2])
 print("Error: Invalid input! Enter numeric values only.")
+print("Error: Cannot divide by zero! Supports must be greater than zero.")
